@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    margin: 0;
+    background-image: linear-gradient(#80C4E9, #F4F6FF);
+    font-family: "Montserrat", sans-serif;
+
+}
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+header {
+    background: #333;
+    color: #fff;
+    padding: 20px;
+
+}
+nav {
+    display: flex;
+    justify-content: center;
+    background: #444;
+    padding: 10px;
+    align-items: center;
+}
+.fs19:hover {
+    background-image: linear-gradient(to right bottom,#EB5B00, #F4F6FF);
+    transition: 0,3s;
+}
+.fs22:hover {
+    background-image: linear-gradient(to right bottom,#80C4E9, #F4F6FF );
+    transition: 0,3s;
+}
+.fs25:hover {
+    background-image: linear-gradient(to right bottom,#77B254, #F4F6FF );
+    transition: 0,3s;
+}
+nav a {
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+section {
+    background: white;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.video-container {
+    text-align: center;
+    margin: 20px 0;
+}
+iframe {
+    width: 100%;
+    max-width: 600px;
+    height: 315px;
+}
+.pagination {
+    text-align: center;
+    margin: 20px 0;
+}
+.pagination a {
+    background: #333;
+    color: white;
+    padding: 10px 15px;
+    margin: 5px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+section {
+    border: 2px solid black;
+    border-radius: 20px;
+    background-image: linear-gradient(#80C4E9, #F4F6FF);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+main {
+    padding: 0 10%;
+}
+img {
+    width: 300px;
+    height: 150px;
+}
+
