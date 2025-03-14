@@ -82,4 +82,8 @@ img {
     width: 300px;
     height: 150px;
 }
+.navigation:hover {
+    border-bottom: 2px solid white;
+
+}
 
